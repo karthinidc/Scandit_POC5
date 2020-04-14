@@ -1,4 +1,4 @@
-package com.scanditpoc5;
+package com.helloworld;
 
 import com.facebook.react.ReactActivity;
 
@@ -10,6 +10,6 @@ public class MainActivity extends ReactActivity {
    */
   @Override
   protected String getMainComponentName() {
-    return "ScanditPOC5";
+    return "Helloworld";
   }
 }

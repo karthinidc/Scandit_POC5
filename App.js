@@ -24,15 +24,6 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
-import {
-  BarcodePicker,
-  ScanditModule,
-  Barcode,
-  ScanSettings
-} from 'scandit-react-native';
-// Set your license key.
-ScanditModule.setAppKey('-- ENTER YOUR SCANDIT LICENSE KEY HERE --');
-
 const App: () => React$Node = () => {
   return (
     <>
